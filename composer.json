@@ -1,0 +1,54 @@
+{
+    "name": "fredylg/azurekeyvault",
+    "description": "Azure KeyVault Helper for Laravel",
+    "keywords": [
+        "fredylg",
+        "azurekeyvault"
+    ],
+    "homepage": "https://github.com/fredylg/azurekeyvault",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Fredy Lievano",
+            "email": "fredylg@hotmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fredylg\\AzureKeyVault\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fredylg\\AzureKeyVault\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fredylg\\AzureKeyVault\\AzureKeyVaultServiceProvider"
+            ],
+            "aliases": {
+                "AzureKeyVault": "Fredylg\\AzureKeyVault\\AzureKeyVaultFacade"
+            }
+        }
+    }
+}
