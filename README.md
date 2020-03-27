@@ -1,11 +1,11 @@
-# Very short description of the package
+# Azure KeyVault Helper for Laravel
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/fredylg/azurekeyvault.svg?style=flat-square)](https://packagist.org/packages/fredylg/azurekeyvault)
 [![Build Status](https://img.shields.io/travis/fredylg/azurekeyvault/master.svg?style=flat-square)](https://travis-ci.org/fredylg/azurekeyvault)
 [![Quality Score](https://img.shields.io/scrutinizer/g/fredylg/azurekeyvault.svg?style=flat-square)](https://scrutinizer-ci.com/g/fredylg/azurekeyvault)
 [![Total Downloads](https://img.shields.io/packagist/dt/fredylg/azurekeyvault.svg?style=flat-square)](https://packagist.org/packages/fredylg/azurekeyvault)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+Quick middle man implementation to connect to AzureKeyVault
 
 ## Installation
 
@@ -47,7 +47,3 @@ If you discover any security related issues, please email fredylg@hotmail.com in
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Laravel Package Boilerplate
-
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
